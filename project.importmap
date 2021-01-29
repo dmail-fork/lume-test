@@ -1,0 +1,176 @@
+{
+  "imports": {
+    "@jsenv/node-module-import-map/": "./node_modules/@jsenv/node-module-import-map/",
+    "@jsenv/node-module-import-map": "./node_modules/@jsenv/node-module-import-map/index.js",
+    "es-module-shims": "./node_modules/es-module-shims/dist/es-module-shims.js",
+    "@jsenv/server/": "./node_modules/@jsenv/server/",
+    "@lume/element/": "./node_modules/@lume/element/",
+    "@jsenv/server": "./node_modules/@jsenv/server/index.js",
+    "@lume/element": "./node_modules/@lume/element/dist/index.js",
+    "lume-test/": "./",
+    "lume-test": "./index.js"
+  },
+  "scopes": {
+    "./node_modules/@jsenv/server/node_modules/@jsenv/logger/": {
+      "@jsenv/logger/": "./node_modules/@jsenv/server/node_modules/@jsenv/logger/",
+      "@jsenv/logger": "./node_modules/@jsenv/server/node_modules/@jsenv/logger/main.node.js"
+    },
+    "./node_modules/babel-plugin-transform-rename-import/": {
+      "babel-plugin-transform-rename-import/": "./node_modules/babel-plugin-transform-rename-import/"
+    },
+    "./node_modules/@babel/helper-validator-identifier/": {
+      "@babel/helper-validator-identifier/": "./node_modules/@babel/helper-validator-identifier/",
+      "@babel/helper-validator-identifier": "./node_modules/@babel/helper-validator-identifier/lib/index.js"
+    },
+    "./node_modules/babel-plugin-jsx-dom-expressions/": {
+      "babel-plugin-jsx-dom-expressions/": "./node_modules/babel-plugin-jsx-dom-expressions/",
+      "@babel/helper-module-imports": "./node_modules/@babel/helper-module-imports/lib/index.js",
+      "@babel/plugin-syntax-jsx": "./node_modules/@babel/plugin-syntax-jsx/lib/index.js",
+      "@babel/types": "./node_modules/@babel/types/lib/index.js"
+    },
+    "./node_modules/@jsenv/node-module-import-map/": {
+      "@jsenv/cancellation/": "./node_modules/@jsenv/cancellation/",
+      "@jsenv/cancellation": "./node_modules/@jsenv/cancellation/main.node.js",
+      "@jsenv/import-map/": "./node_modules/@jsenv/import-map/",
+      "@jsenv/import-map": "./node_modules/@jsenv/import-map/index.js",
+      "@jsenv/logger": "./node_modules/@jsenv/logger/index.js",
+      "@jsenv/util/": "./node_modules/@jsenv/util/",
+      "@jsenv/util": "./node_modules/@jsenv/util/index.js"
+    },
+    "./node_modules/@babel/helper-module-imports/": {
+      "@babel/helper-module-imports/": "./node_modules/@babel/helper-module-imports/",
+      "@babel/types": "./node_modules/@babel/types/lib/index.js"
+    },
+    "./node_modules/@babel/helper-plugin-utils/": {
+      "@babel/helper-plugin-utils/": "./node_modules/@babel/helper-plugin-utils/"
+    },
+    "./node_modules/@babel/plugin-syntax-jsx/": {
+      "@babel/helper-plugin-utils": "./node_modules/@babel/helper-plugin-utils/lib/index.js",
+      "@babel/plugin-syntax-jsx/": "./node_modules/@babel/plugin-syntax-jsx/"
+    },
+    "./node_modules/@jsenv/cancellation/": {
+      "@jsenv/cancellation/": "./node_modules/@jsenv/cancellation/",
+      "@jsenv/cancellation": "./node_modules/@jsenv/cancellation/main.node.js",
+      "@jsenv/node-signals": "./node_modules/@jsenv/node-signals/index.js"
+    },
+    "./node_modules/@jsenv/node-signals/": {
+      "@jsenv/node-signals/": "./node_modules/@jsenv/node-signals/",
+      "@jsenv/node-signals": "./node_modules/@jsenv/node-signals/index.js"
+    },
+    "./node_modules/lit-dom-expressions/": {
+      "lit-dom-expressions/": "./node_modules/lit-dom-expressions/"
+    },
+    "./node_modules/babel-preset-solid/": {
+      "babel-plugin-jsx-dom-expressions": "./node_modules/babel-plugin-jsx-dom-expressions/index.js",
+      "babel-preset-solid/": "./node_modules/babel-preset-solid/"
+    },
+    "./node_modules/to-fast-properties/": {
+      "to-fast-properties/": "./node_modules/to-fast-properties/"
+    },
+    "./node_modules/@jsenv/import-map/": {
+      "@jsenv/import-map/": "./node_modules/@jsenv/import-map/",
+      "@jsenv/import-map": "./node_modules/@jsenv/import-map/index.js"
+    },
+    "./node_modules/event-target-shim/": {
+      "event-target-shim/": "./node_modules/event-target-shim/"
+    },
+    "./node_modules/abort-controller/": {
+      "abort-controller/": "./node_modules/abort-controller/",
+      "event-target-shim": "./node_modules/event-target-shim/dist/event-target-shim.js"
+    },
+    "./node_modules/@jsenv/url-meta/": {
+      "@jsenv/url-meta/": "./node_modules/@jsenv/url-meta/",
+      "@jsenv/url-meta": "./node_modules/@jsenv/url-meta/index.js"
+    },
+    "./node_modules/dom-expressions/": {
+      "babel-plugin-transform-rename-import": "./node_modules/babel-plugin-transform-rename-import/lib/index.js",
+      "dom-expressions/": "./node_modules/dom-expressions/"
+    },
+    "./node_modules/es-module-shims/": {
+      "es-module-shims/": "./node_modules/es-module-shims/"
+    },
+    "./node_modules/@lume/variable/": {
+      "lit-dom-expressions": "./node_modules/lit-dom-expressions/dist/lit-dom-expressions.js",
+      "@lume/variable/": "./node_modules/@lume/variable/",
+      "dom-expressions": "./node_modules/dom-expressions/index",
+      "solid-js/html": "./node_modules/solid-js/html/dist/html.js",
+      "solid-js/dev": "./node_modules/solid-js/dev/dist/dev.js",
+      "solid-js/dom": "./node_modules/solid-js/web/dist/web.js",
+      "solid-js/web": "./node_modules/solid-js/web/dist/web.js",
+      "solid-js/h": "./node_modules/solid-js/h/dist/h.js",
+      "solid-js": "./node_modules/solid-js/dist/solid.js"
+    },
+    "./node_modules/@jsenv/logger/": {
+      "@jsenv/logger/": "./node_modules/@jsenv/logger/",
+      "@jsenv/logger": "./node_modules/@jsenv/logger/index.js"
+    },
+    "./node_modules/@jsenv/server/": {
+      "@jsenv/cancellation/": "./node_modules/@jsenv/cancellation/",
+      "@jsenv/cancellation": "./node_modules/@jsenv/cancellation/main.node.js",
+      "@jsenv/node-signals": "./node_modules/@jsenv/node-signals/index.js",
+      "abort-controller": "./node_modules/abort-controller/dist/abort-controller.js",
+      "@jsenv/logger/": "./node_modules/@jsenv/server/node_modules/@jsenv/logger/",
+      "@jsenv/logger": "./node_modules/@jsenv/server/node_modules/@jsenv/logger/main.node.js",
+      "@jsenv/util/": "./node_modules/@jsenv/util/",
+      "@jsenv/util": "./node_modules/@jsenv/util/index.js",
+      "node-fetch": "./node_modules/node-fetch/lib/index.mjs",
+      "kill-port": "./node_modules/kill-port/index.js"
+    },
+    "./node_modules/@lume/element/": {
+      "babel-preset-solid": "./node_modules/babel-preset-solid/index.js",
+      "@lume/variable/": "./node_modules/@lume/variable/",
+      "@lume/variable": "./node_modules/@lume/variable/dist/index.js",
+      "solid-js/html": "./node_modules/solid-js/html/dist/html.js",
+      "solid-js/dev": "./node_modules/solid-js/dev/dist/dev.js",
+      "solid-js/dom": "./node_modules/solid-js/web/dist/web.js",
+      "solid-js/web": "./node_modules/solid-js/web/dist/web.js",
+      "solid-js/h": "./node_modules/solid-js/h/dist/h.js",
+      "lowclass/": "./node_modules/lowclass/dist/",
+      "lowclass": "./node_modules/lowclass/dist/index.js",
+      "solid-js": "./node_modules/solid-js/dist/solid.js"
+    },
+    "./node_modules/get-them-args/": {
+      "get-them-args/": "./node_modules/get-them-args/"
+    },
+    "./node_modules/@babel/types/": {
+      "@babel/helper-validator-identifier": "./node_modules/@babel/helper-validator-identifier/lib/index.js",
+      "to-fast-properties": "./node_modules/to-fast-properties/index.js",
+      "@babel/types/": "./node_modules/@babel/types/",
+      "lodash": "./node_modules/lodash/lodash.js"
+    },
+    "./node_modules/@jsenv/util/": {
+      "@jsenv/cancellation/": "./node_modules/@jsenv/cancellation/",
+      "@jsenv/cancellation": "./node_modules/@jsenv/cancellation/main.node.js",
+      "@jsenv/url-meta": "./node_modules/@jsenv/url-meta/index.js",
+      "@jsenv/util/": "./node_modules/@jsenv/util/",
+      "@jsenv/util": "./node_modules/@jsenv/util/index.js"
+    },
+    "./node_modules/node-fetch/": {
+      "node-fetch/": "./node_modules/node-fetch/"
+    },
+    "./node_modules/shell-exec/": {
+      "shell-exec/": "./node_modules/shell-exec/"
+    },
+    "./node_modules/kill-port/": {
+      "get-them-args": "./node_modules/get-them-args/index.js",
+      "kill-port/": "./node_modules/kill-port/",
+      "shell-exec": "./node_modules/shell-exec/index.js"
+    },
+    "./node_modules/lowclass/": {
+      "lowclass/": "./node_modules/lowclass/dist/",
+      "lowclass": "./node_modules/lowclass/dist/index.js"
+    },
+    "./node_modules/solid-js/": {
+      "solid-js/html": "./node_modules/solid-js/html/dist/html.js",
+      "solid-js/dev": "./node_modules/solid-js/dev/dist/dev.js",
+      "solid-js/dom": "./node_modules/solid-js/web/dist/web.js",
+      "solid-js/web": "./node_modules/solid-js/web/dist/web.js",
+      "solid-js/h": "./node_modules/solid-js/h/dist/h.js",
+      "solid-js/": "./node_modules/solid-js/",
+      "solid-js": "./node_modules/solid-js/dist/solid.js"
+    },
+    "./node_modules/lodash/": {
+      "lodash/": "./node_modules/lodash/"
+    }
+  }
+}

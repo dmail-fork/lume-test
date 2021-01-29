@@ -1,0 +1,20 @@
+{
+  "name": "lume-test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js",
+    "generate-import-map": "node ./generate-import-map.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jsenv/node-module-import-map": "^12.3.0",
+    "@jsenv/server": "^5.5.0",
+    "@lume/element": "^0.4.2",
+    "es-module-shims": "^0.9.0"
+  }
+}
